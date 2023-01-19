@@ -22,5 +22,6 @@ describe Solver do
       expect(@solver.factorial(1)).to eq(1)
       expect(@solver.factorial(5)).to eq(120)
       expect(@solver.factorial(10)).to eq(3628800)
+    end
   end
 end
