@@ -24,3 +24,4 @@ describe Solver do
       expect(@solver.factorial(10)).to eq(3_628_800)
     end
   end
+end
