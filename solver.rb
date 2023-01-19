@@ -8,4 +8,8 @@ class Solver
       (1..num).inject(:*)
     end
   end
+
+  def reverse(string)
+    string.chars.reverse.join
+  end
 end
