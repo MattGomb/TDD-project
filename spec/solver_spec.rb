@@ -24,4 +24,15 @@ describe Solver do
       expect(@solver.factorial(10)).to eq(3_628_800)
     end
   end
+
+  describe '#reverse' do
+    it 'should return a string' do
+      reversed_string = @solver.reverse('string')
+      expect(reversed_string).to be_kind_of(String)
+    end
+    it 'should return "olleh" for the string "hello"' do
+      reversed_hello = @solver.reverse('hello')
+      expect(reversed_hello).to eql 'olleh'
+    end
+  end
 end
