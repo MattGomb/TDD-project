@@ -35,4 +35,23 @@ describe Solver do
       expect(reversed_hello).to eql 'olleh'
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'should return "fizz" when num is divisible by 3' do
+      fizz = @solver.fizzbuzz(9)
+      expect(fizz).to eql 'fizz'
+    end
+    it 'should return "buzz" when num is divisible by 5' do
+      buzz = @solver.fizzbuzz(10)
+      expect(buzz).to eql 'buzz'
+    end
+    it 'should return "fizzbuzz" when num is divisible by 3 and 5' do
+      fizzbuzz_var = @solver.fizzbuzz(15)
+      expect(fizzbuzz_var).to eql 'fizzbuzz'
+    end
+    it 'should return num as a string for other cases' do
+      other_case = @solver.fizzbuzz(1)
+      expect(other_case).to eql '1'
+    end
+  end
 end
