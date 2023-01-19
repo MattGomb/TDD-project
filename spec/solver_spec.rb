@@ -1,4 +1,5 @@
 require_relative '../solver'
+require 'rspec'
 
 describe Solver do
   it 'should return an instance of solver class' do
