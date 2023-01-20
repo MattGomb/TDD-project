@@ -10,14 +10,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,65 +24,61 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 TDD-project <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**TDD-project** is an assignment from the Microverse curriculum created using Test Driven Development. The assignment currently consists of a single class called Solver with 3 diferent methods and a file with unit tests created with RSpec.
 
 ## 🛠 Built With <a name="built-with"></a>
+- Ruby
+- RSpec
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Programming Language</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Factorial]** Returns the factorial of a given integer
+- **[Reverse]** Returns a string in reverse order
+- **[Fizzbuzz]** Returns different output depending if the number given is divisible by 3, by 5, by 3 and 5, or other
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Ruby
+- RSpec Gem
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: <br>
+`git clone git@github.com:MattGomb/TDD-project.git`
 
 ### Install
 
-Install this project with:
+Install this project with:<br>
+`bundle install`
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command:<br>
+`rspec spec`
 
 ### Run tests
 
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+To run tests, run the following command:<br>
+`rspec spec`
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -104,9 +98,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **More classes**
+- [ ] **More methods**
+- [ ] **More tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +108,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MattGomb/TDD-project/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
